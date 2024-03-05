@@ -9,8 +9,6 @@
 
 .header_container{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 
@@ -19,5 +17,4 @@
   border-radius: 1rem;
   padding: 12px;
   width: 8rem;
-  height: 3rem;
 }

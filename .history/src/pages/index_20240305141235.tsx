@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import styles from
 
 export default function Home() {
   return (
@@ -8,10 +8,8 @@ export default function Home() {
         <div className="logo_img">
           <Image src="/images/green_logo.svg" alt="VanPlan Logo" width={400} height={400} />
         </div>
-        <button className="signup_button">Sign Up</button>
+        <button className="">Sign Up</button>
       </header>
-
-      
     </main>
   );
 }

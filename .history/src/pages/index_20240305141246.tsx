@@ -10,8 +10,6 @@ export default function Home() {
         </div>
         <button className="signup_button">Sign Up</button>
       </header>
-
-      
     </main>
   );
 }
