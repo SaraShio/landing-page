@@ -1,0 +1,5 @@
+.sub_banner_container{
+    display: flex;
+    border: 2px solid var(--black);
+    padding: var(--card-padding);
+}

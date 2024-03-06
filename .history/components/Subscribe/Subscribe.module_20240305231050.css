@@ -1,0 +1,8 @@
+.subscribe_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}

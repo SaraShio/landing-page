@@ -1,0 +1,17 @@
+import Image from "next/image";
+import styles from "./Hero.module.css";
+
+export default function Hero() {
+  return (
+    <>
+      <div className={styles.hero_container}>
+      <Image
+            src="/images/test.jpeg"
+            alt="VanPlan Logo"
+            width={600}
+            height={600}
+          />
+      </div>
+    </>
+  );
+}

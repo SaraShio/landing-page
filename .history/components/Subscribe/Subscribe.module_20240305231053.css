@@ -1,0 +1,7 @@
+.subscribe_container{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid var(--black);
+    border-radius: 2rem;
+    padding: var(--card-padding);
+}

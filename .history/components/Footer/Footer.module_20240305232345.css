@@ -1,0 +1,12 @@
+.footer_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 100vw;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    position: fixed; 
+    left: 0; /* Align to the left edge */
+    bottom: 0; /* Align to the bottom edge */
+}

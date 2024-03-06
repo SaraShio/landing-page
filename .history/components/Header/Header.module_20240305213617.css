@@ -1,0 +1,19 @@
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .signup_button{
+    border: 3px solid var(--black);
+    border-radius: 1rem;
+    padding: 12px;
+    width: 8rem;
+    height: 3rem;
+  }
+
+  .input_container{
+    display: flex;
+    align-items: center;
+  }

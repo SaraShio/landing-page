@@ -1,0 +1,16 @@
+.hero_container{
+display: flex;
+padding: 10rem;
+}
+
+.download_button{
+    border: 3px solid var(--black);
+    border-right: none;
+    border-radius: 1rem;
+    padding: 12px;
+    width: 12rem;
+    height: 3rem;
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: 600;
+}

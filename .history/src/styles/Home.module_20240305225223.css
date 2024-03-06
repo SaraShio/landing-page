@@ -1,0 +1,16 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh; /* Equivalent to 'min-h-screen' */
+    padding: 24px; /* This sets the padding on all sides to 24px, equivalent to 'p-24' */
+}
+
+.card_container {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center;
+  gap: 20px;
+}
