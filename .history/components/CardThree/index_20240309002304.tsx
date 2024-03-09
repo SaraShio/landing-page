@@ -2,12 +2,17 @@ import Image from "next/image";
 import styles from "./CardThree.module.css";
 import Spline from '@splinetool/react-spline';
 
+export default function App() {
+  return (
+  );
+}
+
 
 export default function CardThree() {
   return (
     <>
       <div className={styles.card_three_container}>
-      <Spline scene="https://prod.spline.design/M5YVoOKa9K1Tw4RS/scene.splinecode" />
+        <Image src="/images/test4.svg" alt="Test" width={100} height={100} />
         <h1>Premium Membership</h1>
         <p>
           For the ultimate van life experience, our Premium Membership offers
