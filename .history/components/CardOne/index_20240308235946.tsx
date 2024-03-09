@@ -10,7 +10,8 @@ export default function CardOne() {
    
         <Spline scene="https://prod.spline.design/W1iOH7ObfQnLzpTR/scene.splinecode" />
 
-    
+        </div>
+
         <h1>Basic Membership</h1>
         <p>
           Our Basic Membership is ideal for those new to van life or who enjoy
