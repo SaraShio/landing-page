@@ -12,7 +12,7 @@ export default function SubBanner() {
     </div>
     <div>
         <Spline scene="https://prod.spline.design/88MjFR-HlmeS6fqw/scene.splinecode" />
-        <h2>Hover over the tree to make the leaves disappear for good!</h2>
+        <h2>Hover over the tree to make the leaves disappear!</h2>
     </div>
 </main>
 
