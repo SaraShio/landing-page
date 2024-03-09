@@ -6,6 +6,7 @@
     align-items: center; 
     justify-content: center; 
     margin-bottom: 6rem;
+    padding-bottom: 6rem;
 }
 
 .title {
@@ -30,6 +31,7 @@
     font-weight: 800;
     cursor: pointer;
     position: absolute;
+
   }
   
   .download_button:hover {

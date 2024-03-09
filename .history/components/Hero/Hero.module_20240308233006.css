@@ -30,6 +30,8 @@
     font-weight: 800;
     cursor: pointer;
     position: absolute;
+    padding-bottom: 6rem;
+
   }
   
   .download_button:hover {

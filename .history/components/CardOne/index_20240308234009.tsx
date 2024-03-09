@@ -7,7 +7,7 @@ export default function CardOne() {
   return (
     <>
       <div className={styles.card_one_container}>
-        <div className={styles.spline}>
+        <div>
         <Spline scene="https://prod.spline.design/W1iOH7ObfQnLzpTR/scene.splinecode" />
 
         </div>

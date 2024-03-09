@@ -1,11 +1,17 @@
 .hero_container {
     color: var(--salmon); 
+    padding: 80px; 
     text-align: left;
     display: flex;
     flex-direction: row;
     align-items: center; 
     justify-content: center; 
+    margin-top: 2rem;
     margin-bottom: 6rem;
+}
+
+.info_container{
+padding-left: 1rem;
 }
 
 .title {
@@ -30,6 +36,7 @@
     font-weight: 800;
     cursor: pointer;
     position: absolute;
+
   }
   
   .download_button:hover {

@@ -16,7 +16,7 @@
 
 .subtitle {
     font-size: 2rem; 
-    padding-bottom: 2rem;
+    padding-bottom: 6rem;
 }
 
 .download_button {
@@ -30,6 +30,7 @@
     font-weight: 800;
     cursor: pointer;
     position: absolute;
+
   }
   
   .download_button:hover {

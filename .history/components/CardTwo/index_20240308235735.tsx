@@ -1,7 +1,5 @@
 import Image from "next/image";
 import styles from "./CardTwo.module.css";
-import Spline from '@splinetool/react-spline';
-
 
 export default function CardTwo() {
   return (

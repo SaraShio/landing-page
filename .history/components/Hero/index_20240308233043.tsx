@@ -7,6 +7,8 @@ import Spline from '@splinetool/react-spline';
 export default function Hero() {
   return (
     <>
+    <Spline scene="https://prod.spline.design/84X5CYescQJtIvey/scene.splinecode" />
+
       <div className={styles.hero_container}>
       <Spline scene="https://prod.spline.design/84X5CYescQJtIvey/scene.splinecode" />
 

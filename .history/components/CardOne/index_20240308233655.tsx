@@ -7,11 +7,7 @@ export default function CardOne() {
   return (
     <>
       <div className={styles.card_one_container}>
-        <div className={styles.spline}>
-        <Spline scene="https://prod.spline.design/W1iOH7ObfQnLzpTR/scene.splinecode" />
-
-        </div>
-
+      <Spline scene="https://prod.spline.design/W1iOH7ObfQnLzpTR/scene.splinecode" width={100}/>
         <h1>Basic Membership</h1>
         <p>
           Our Basic Membership is ideal for those new to van life or who enjoy
