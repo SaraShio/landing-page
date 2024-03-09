@@ -3,14 +3,13 @@ import Image from "next/image";
 import styles from "./Header.module.css";
 
 export default function Header() {
+  const [message, setMessage] = useState(''); 
   const [email, setEmail] = useState(''); 
-  const [placeholder, setPlaceholder] = useState('Enter email...');
 
-
-  const handleSubmit = (e:any) => {
-    e.preventDefault(); 
-    setPlaceholder('Thanks for signing up!');
-    setEmail(''); 
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Prevent the default form submission behavior
+    setMessage('Thanks for signing up!'); // Set the message
+    setEmail(''); // Clear the email input field
   };
 
   return (
@@ -29,15 +28,17 @@ export default function Header() {
           <form onSubmit={handleSubmit}>
             <input 
               type="text" 
-              placeholder={placeholder} 
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              placeholder="Enter email..." 
+              value={email} // Set the value to the email state variable
+              onChange={(e) => setEmail(e.target.value)} // Update the email state when the input changes
             ></input>
             <button className={styles.signup_button} type="submit">
               SIGN UP
             </button>
           </form>
         </div>
+        {/* Message displayed here, below the input and button */}
+        {message && <div className={styles.thank_you_message}>{message}</div>}
       </div>
     </>
   );

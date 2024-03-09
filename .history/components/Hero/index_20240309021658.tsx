@@ -1,5 +1,7 @@
+import { style } from "@mui/system";
+import Image from "next/image";
 import styles from "./Hero.module.css";
-import Spline from "@splinetool/react-spline";
+import Spline from '@splinetool/react-spline';
 
 export default function Hero() {
   return (
@@ -11,15 +13,14 @@ export default function Hero() {
           <h1 className={styles.title}>Welcome!</h1>
           <h1 className={styles.subtitle}>Plan your day in Vancouver</h1>
 
-          <div className={styles.download_button}>
-            <a
-              href="https://apps.apple.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              FREE DOWNLOAD
-            </a>{" "}
-          </div>
+          {/* Update this part */}
+          <a 
+            href="https://apps.apple.com/" // Replace with your actual App Store link
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className={styles.download_button}>
+            FREE DOWNLOAD
+          </a>
         </div>
       </div>
     </>

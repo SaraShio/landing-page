@@ -7,11 +7,6 @@
     padding: var(--card-padding);
 }
 
-.subscribe_container>h1{
-font-size: 20px;
-margin-bottom: 12px;
-}
-
 .signup_button{
   border: none;
   border-radius: 1rem;

@@ -8,7 +8,7 @@ export default function Subscribe() {
 
   const handleClick = (e:any) => {
     e.preventDefault(); 
-    setMessage('You are signed up for the newsletter!'); 
+    setMessage('Thanks for signing up!'); 
     setEmail('');
   };
 

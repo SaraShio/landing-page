@@ -7,7 +7,7 @@ export default function Header() {
   const [placeholder, setPlaceholder] = useState('Enter email...');
 
 
-  const handleSubmit = (e:any) => {
+  const handleSubmit = (e) => {
     e.preventDefault(); 
     setPlaceholder('Thanks for signing up!');
     setEmail(''); 

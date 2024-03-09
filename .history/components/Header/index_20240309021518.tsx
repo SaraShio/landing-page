@@ -4,10 +4,9 @@ import styles from "./Header.module.css";
 
 export default function Header() {
   const [email, setEmail] = useState(''); 
-  const [placeholder, setPlaceholder] = useState('Enter email...');
+  const [placeholder, setPlaceholder] = useState('Enter email...'); 
 
-
-  const handleSubmit = (e:any) => {
+  const handleSubmit = (e) => {
     e.preventDefault(); 
     setPlaceholder('Thanks for signing up!');
     setEmail(''); 
@@ -29,7 +28,7 @@ export default function Header() {
           <form onSubmit={handleSubmit}>
             <input 
               type="text" 
-              placeholder={placeholder} 
+              placeholder={placeholder} // Use state variable for placeholder
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             ></input>
