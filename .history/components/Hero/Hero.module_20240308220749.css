@@ -1,0 +1,35 @@
+.hero_container {
+    color: var(--salmon); 
+    padding: 80px 0; 
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.title {
+    font-size: 4rem; 
+    font-weight: bold;
+    color: var(--dark-teal);
+}
+
+.subtitle {
+    font-size: 2rem; 
+}
+
+.hero_button {
+    padding: 12px 24px; /* Sufficient padding */
+    background-color: var(--mint); /* Button background color */
+    color: var(--white); /* Text color */
+    border: none; /* No border */
+    border-radius: 25px; /* Rounded edges */
+    cursor: pointer; /* Indicate it's clickable */
+    font-size: 1rem; /* Readable text size */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.hero_button:hover {
+    background-color: var(--salmon); /* Change color on hover */
+}

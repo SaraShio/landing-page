@@ -1,0 +1,12 @@
+.sub_banner_container{
+    border: 8px solid var(--mint);
+    border-radius: 140px;
+    background-color: var(--light-gray);
+    padding: var(--card-padding);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    margin-top: 6rem;
+    margin-bottom: 6rem;
+}

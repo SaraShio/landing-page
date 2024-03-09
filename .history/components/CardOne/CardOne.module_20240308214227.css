@@ -1,0 +1,32 @@
+.card_one_container {
+  border: 2px solid var(--black);
+  padding: var(--card-padding);
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_one_container > h1 {
+  font-size: 2rem;
+  color: var(--dark-teal);
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.buy_button {
+  border-right: none;
+  border-radius: 1rem;
+  padding: 12px;
+  width: 8rem;
+  height: 3rem;
+  background-color: var(--black);
+  color: var(--white);
+  font-weight: 800;
+}
+
+.buy_button:hover {
+  background-color: var(--white);
+}

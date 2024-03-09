@@ -1,0 +1,16 @@
+.sub_banner_container{
+    border: 8px solid var(--mint);
+    border-radius: 140px;
+    background-color: var(--light-gray);
+    padding: var(--sub-banner-padding);
+    width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    font-size: 1.5rem; 
+    color: ;  
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}

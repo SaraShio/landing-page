@@ -1,0 +1,25 @@
+.card_one_container{
+    border: 2px solid var(--black);
+    padding: var(--card-padding);
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_one_container > h1{
+
+}
+
+.buy_button{
+    border: 3px solid var(--black);
+    border-right: none;
+    border-radius: 1rem;
+    padding: 12px;
+    width: 8rem;
+    height: 3rem;
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: 600;
+}

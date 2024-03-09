@@ -1,0 +1,40 @@
+.hero_container {
+    color: var(--salmon); 
+    padding: 80px 0; 
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.title {
+    font-size: 4rem; 
+    font-weight: bold;
+    color: var(--dark-teal);
+}
+
+.subtitle {
+    font-size: 2rem; 
+}
+
+.download_button {
+    border: none; 
+    border-radius: 1rem;
+    padding: 12px;
+    width: 16rem;
+    height: 3rem;
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: 800;
+    cursor: pointer;
+  }
+  
+  .download_button:hover {
+    background-color: var(--white);
+    color: var(--dark-teal);
+    border: 2px solid var(--dark-teal);
+    width: 10rem; 
+    height: 3rem; 
+  }

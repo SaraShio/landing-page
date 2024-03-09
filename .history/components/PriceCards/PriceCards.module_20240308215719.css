@@ -1,0 +1,8 @@
+.price_card_container {
+    display: flex;
+    flex-direction: row; // or column based on your design
+    align-items: stretch; // This makes all child elements (cards) of the container the same height
+    justify-content: space-around; // This is for spacing, adjust as needed
+    gap: 20px; // Provides space between the cards
+  }
+  

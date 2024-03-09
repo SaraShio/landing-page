@@ -1,0 +1,45 @@
+.card_one_container {
+    border: 2px solid var(--black);
+    padding: var(--card-padding);
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+  }
+  
+  .card_one_container > h1 {
+    font-size: 2rem;
+    color: var(--dark-teal); 
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center; /* Ensures the h1 text is center-aligned */
+  }
+  
+  .card_one_container > p {
+    display: flex; /* If you want your paragraphs to be flex containers, keep this. Otherwise, consider removing or changing it */
+    justify-content: center; /* Centers the contents of the paragraph if it's a flex container */
+  }
+  
+  .buy_button {
+    border: none; /* Updated from border-right to border to remove all border styles */
+    border-radius: 1rem;
+    padding: 12px;
+    width: 8rem;
+    height: 3rem;
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: 800;
+    cursor: pointer; /* Makes the button change the cursor to a pointer to indicate it's clickable */
+  }
+  
+  .buy_button:hover {
+    background-color: var(--white);
+    color: var(--dark-teal);
+    border: 2px solid var(--dark-teal);
+    width: 10rem; /* This will enlarge the button on hover, as specified */
+    height: 3rem; /* Keeps the button height consistent on hover */
+  }
+  

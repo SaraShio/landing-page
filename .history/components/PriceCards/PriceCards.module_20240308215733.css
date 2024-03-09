@@ -1,0 +1,8 @@
+.price_card_container {
+    display: flex;
+    flex-direction: row; 
+    align-items: stretch; 
+    justify-content: space-around; 
+    gap: 20px; /
+  }
+  

@@ -1,0 +1,30 @@
+.subscribe_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 8px solid var(--mint);
+    border-radius: 140px;
+    padding: var(--card-padding);
+}
+
+.signup_button{
+    border: 3px solid var(--black);
+    border-right: none;
+    border-radius: 1rem;
+    padding: 12px;
+    width: 8rem;
+    height: 3rem;
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: 600;
+  }
+
+  .input_container{
+    display: flex;
+    align-items: center;
+    border: 3px solid var(--black);
+    border-radius: 1rem;
+    height: 3rem;
+    padding-left: 2rem;
+    margin-left: 2rem;
+  }

@@ -1,0 +1,40 @@
+.card_three_container {
+  border: 8px solid var(--mint);
+  border-radius: 140px;    padding: var(--card-padding);
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+  }
+  
+  .card_three_container > h1 {
+    font-size: 2rem;
+    color: var(--dark-teal); 
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center; 
+  }
+  
+  .buy_button {
+    border: none; 
+    border-radius: 1rem;
+    padding: 12px;
+    width: 8rem;
+    height: 3rem;
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: 800;
+    cursor: pointer;
+  }
+  
+  .buy_button:hover {
+    background-color: var(--white);
+    color: var(--dark-teal);
+    border: 2px solid var(--dark-teal);
+    width: 10rem; 
+    height: 3rem; 
+  }
+  
