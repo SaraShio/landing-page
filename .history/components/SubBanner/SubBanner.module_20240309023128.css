@@ -1,0 +1,42 @@
+.sub_banner_container {
+    border: 8px solid var(--mint);
+    border-radius: 140px;
+    background-color: var(--light-gray);
+    padding: var(--sub-banner-padding);
+    width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--dark-teal);
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.text_container {
+    /* Ensure the text container also aligns its contents in the center */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%; /* Use full width to ensure text alignment */
+}
+
+.spline {
+    /* Styles for the spline container if needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Adjust based on your layout needs */
+    margin-top: 2rem; /* Add space above the spline section */
+}
+
+.spline h2 {
+    /* If you have specific styles for the h2 inside the spline container */
+    text-align: center;
+    margin-top: 1rem; /* Space after the Spline component */
+}
