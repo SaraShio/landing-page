@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+:root {
+ --black:#000000;
+ --white: #FFFFFF;
+ --light-gray: #F3F4F6; /* Adjusted for better contrast */
+ --gray: #B6B6B6;
+ --teal: #26A8AB;
+ --dark-teal: #1b8d8f;
+ --mint: #51BAA7;
+ --salmon: #DB7F73;
+ --light-green: #DCDFCC;
+ 
+ --card-padding: 3rem;
+ --sub-banner-padding: 6rem;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: var(--light-gray);
+}
+
+/* Example responsive classes */
+.card {
+  padding: var(--card-padding);
+  background-color: var(--white);
+  /* Responsive padding */
+  @apply p-6 md:p-12 lg:p-24;
+}
+
+.text-base {
+  @apply text-base md:text-lg lg:text-xl; /* Font size increases with screen size */
+}
+
+.btn {
+  @apply py-2 px-4 font-semibold rounded-lg shadow-md;
+  @apply bg-teal text-white; /* Apply your color variables */
+  /* Responsive button size */
+  @apply text-sm md:text-base lg:text-lg;
+}
+
+.container {
+  @apply mx-auto max-w-screen-md; /* Center the container and set a max-width */
+  /* More space on larger screens */
+  @apply px-4 md:px-6 lg:px-8;
+}
+
+/* Adjustments for specific elements at different breakpoints */
+@media (min-width: 768px) { /* MD devices and above */
+  :root {
+    --card-padding: 4rem;
+    --sub-banner-padding: 8rem;
+  }
+}
+
+@media (min-width: 1024px) { /* LG devices and above */
+  :root {
+    --card-padding: 6rem;
+    --sub-banner-padding: 12rem;
+  }
+}

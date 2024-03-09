@@ -1,12 +1,16 @@
 import Image from "next/image";
 import styles from "./CardOne.module.css";
-import Spline from "@splinetool/react-spline";
+import Spline from '@splinetool/react-spline';
+
 
 export default function CardOne() {
   return (
     <>
       <div className={styles.card_one_container}>
+   
         <Spline scene="https://prod.spline.design/W1iOH7ObfQnLzpTR/scene.splinecode" />
+
+    
         <h1>Basic Membership</h1>
         <p>
           Our Basic Membership is ideal for those new to van life or who enjoy
@@ -16,15 +20,10 @@ export default function CardOne() {
           your wheels rolling and start exploring with confidence and community
           support.
         </p>
+
         <h1>$0/month</h1>
-        <a
-          href="https://www.youtube.com/watch?v=BHzJByX3LEM"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.buy_button}
-        >
-          BUY NOW
-        </a>{" "}
+
+        <button className={styles.buy_button}>BUY NOW</button>
       </div>
     </>
   );
